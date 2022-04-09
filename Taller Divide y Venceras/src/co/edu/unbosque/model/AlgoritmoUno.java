@@ -13,7 +13,7 @@ public class AlgoritmoUno {
 		int n, s;
 		BigInteger w,x,y,z;
 		n = Math.max(u.bitLength(), v.bitLength());
-		if(n < 5000000) {
+		if(n < 5) {
 			return u.multiply(v);
 		}else {
 			s = n/2;
